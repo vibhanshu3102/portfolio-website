@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibhanshu`s Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/569cecd5e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>
+                    Web-Developer
+                </p>
+                <h1>
+                    Hi, I'm <span>Vibhanshu</span> Wankhede <br>from Nagpur
+                </h1>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- about -->
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/user.jpg"> 
+            
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, natus architecto. Aspernatur,
+                        iste amet a perferendis reprehenderit tempore est aut culpa illum! Possimus, alias eveniet
+                        laborum cumque consequuntur eos accusantium veritatis cum vero? Natus est assumenda quos non!
+                        Dolores magni tempora quod perferendis, inventore ea consequatur quo eligendi saepe asperiores.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tablinks active-link" id ="btn1" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" id ="btn2" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" id ="btn3" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web-Development</span><br>Designing websites </li>
+                            <li><span>DSA</span><br>Experience coder </li>
+                            <li><span>REACT.JS</span><br>frameworks </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>B.tech in Computer Technology</span><br>Yeshwantrao Chavan College Of Engineering</li>
+                            <li><span>Primary Education</span><br>Montfort Senior Secondary School </li>
+                            <li><span>Secondary Education</span><br> MKH Sanchetti Public School and JR. College </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Project-1</span><br>Designed a food delievery website </li>
+                            <li><span>Project-2</span><br>desighed a gym membership website </li>
+                            <li><span>Project-3</span><br>Portfolio Website </li>
+                        </ul>
+                    </div>
+                </div><br>
+            </div>
+        </div>
+    </div>
+ <!-- ------------------------------------------SERVICES------------------------------------------------------- -->
+    
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+    <div class="service-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web-Developer</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eius id nemo accusantium magnam in repellat omnis! At, fuga quam?
+            </p>
+            <a href="$">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-cloud"></i>
+            <h2>Cloud Computing</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eius id nemo accusantium magnam in repellat omnis! At, fuga quam?
+            </p>
+            <a href="$">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Data-Science</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eius id nemo accusantium magnam in repellat omnis! At, fuga quam?
+            </p>
+            <a href="$">Learn More</a>
+        </div>
+    </div>
+    </div>
+
+</div>
+<!-- ---------------------------------PORTFOLIO----------------------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Social Media Clones</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, excepturi sit eligendi ut culpa minus.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>Website Clones</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, excepturi sit eligendi ut culpa minus.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Web Applications</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, excepturi sit eligendi ut culpa minus.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------------------------------CONTACT-------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+
+        <p><i class="fa-solid fa-paper-plane"></i>vibhanshuwankhede3102@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+91 7020391596</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/qr/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/vibhanshu-wankhede-727a81220"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/vibhanshu3102"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="images/Vibhanshu-Resume (2).pdf"download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+        <div class="copyright">
+            <p>Copyright &COPY; Vibhanshu Wankhede. Copyright Disclaimer under section 107 of the Copyright Act 1976</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+
+
+</html>
